@@ -1,0 +1,9 @@
+package org.example.test
+
+import org.example.annotation.IntSum
+
+
+@IntSum
+abstract class MyClass {
+    var s: Int = 6
+}

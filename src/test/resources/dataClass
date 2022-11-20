@@ -1,0 +1,10 @@
+package org.example.test
+
+import org.example.annotation.IntSum
+
+@IntSum
+data class MyDataClass(
+    val myInt: Int = 9,
+    val myOtherInt: Int = 99,
+    val s: String = ""
+)
